@@ -7,6 +7,8 @@
 #define TRAY_CONNECTED "mullvad-vpn"
 #define TRAY_DISCONNECTED "stock_dialog-warning"
 
+#define DEBUG
+
 static struct tray tray;
 
 static FILE *status_file;
